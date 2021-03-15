@@ -20,9 +20,9 @@
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build",
-    "release:major": "npm version major && npm publish",
-    "release:minor": "npm version minor && npm publish",
-    "release:patch": "npm version patch && npm publish"
+    "release:major": "npm version major && npm publish --access public",
+    "release:minor": "npm version minor && npm publish --access public",
+    "release:patch": "npm version patch && npm publish --access public"
   },
   "dependencies": {
     "big.js": "^5.2.2",
